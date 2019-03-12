@@ -1,0 +1,33 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-react"
+    ],
+    "defaultSeverity": "warning",
+    "rules": {
+        "eofline": false,
+        "interface-name": [
+            false
+        ],
+        "max-classes-per-file": false,
+        "max-line-length": [
+            false
+        ],
+        "no-console": [
+            true,
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "no-string-literal": false,
+        "no-empty-interface": false,
+        "object-literal-sort-keys": false,
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ]
+    }
+}
